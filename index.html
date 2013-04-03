@@ -1,0 +1,281 @@
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]>
+  <html class='no-js lt-ie9 lt-ie8 lt-ie7' lang='en'></html>
+<![endif]-->
+<!--[if IE 7]>
+  <html class='no-js lt-ie9 lt-ie8' lang='en'></html>
+<![endif]-->
+<!--[if IE 8]>
+  <html class='no-js lt-ie9' lang='en'></html>
+<![endif]-->
+<!--[if gt IE 8]>
+  <html class='no-js' lang='en'></html>
+  <head>
+    <meta charset='utf-8'>
+    <!-- Set the viewport width to device width for mobile -->
+    <meta content='with=device-width' name='viewport'>
+    <title>Monica Olinescu</title>
+    <!-- Included CSS Files -->
+    <link href='stylesheets/foundation.css' rel='stylesheet'>
+    <link href='stylesheets/app.css' rel='stylesheet'>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script>
+    <script src='javascripts/modernizr.foundation.js'></script>
+    <script src='javascripts/foundation.js'></script>
+    <!-- start Mixpanel -->
+    <script>
+      (function(e,b){if(!b.__SV){var a,f,i,g;window.mixpanel=b;a=e.createElement("script");a.type="text/javascript";a.async=!0;a.src=("https:"===e.location.protocol?"https:":"http:")+'//cdn.mxpnl.com/libs/mixpanel-2.2.min.js';f=e.getElementsByTagName("script")[0];f.parentNode.insertBefore(a,f);b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==
+      typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.increment people.append people.track_charge people.clear_charges people.delete_user".split(" ");for(g=0;g<i.length;g++)f(c,i[g]);b._i.push([a,
+      e,d])};b.__SV=1.2}})(document,window.mixpanel||[]);
+      mixpanel.init("f9930806f4ae5e54650f3bc15b6463cb");
+    </script>
+    <!-- IE Fix for HTML5 Tags -->
+    <!--[if lt IE 9]>
+      <script src='http://html5shiv.googlecode.com/svn/trunk/html5.js'></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class='row header'>
+      <div class='twelve columns'>
+        <hr>
+        <div class='row'>
+          <div class='ten columns'>
+            <h1>Monica Olinescu</h1>
+            <h6 class='subheader'>Software Engineer, Rock Climber, Dog person. Toronto, Canada.</h6>
+          </div>
+          <div class='two columns social'>
+            <a href='http://github.com/monicao' id='github' target='_blank'>
+              <img src='images/social/github.png'>
+            </a>
+            <a href='http://twitter.com/mochromatic' id='twitter' target='_blank'>
+              <img src='images/social/twitter.png'>
+            </a>
+            <a href='http://www.linkedin.com/pub/monica-olinescu/3/7b6/287' id='linkedin' target='_blank'>
+              <img src='images/social/linkedin.png'>
+            </a>
+          </div>
+        </div>
+        <hr>
+      </div>
+    </div>
+    <div class='row intro'>
+      <div class='panel'>
+        <div class='eight columns'>
+          <h4>Hey there!</h4>
+          <p>A little bit about myself... I became interested in web development during my last year of Computer Science at the University of Toronto. That's when I started using Ruby on Rails. Over time I became a full-stack web developer and started using client-side frameworks such as Angular and Backbone.js. After graduating from university I started a web consulting company with a friend. I have been working on/with startups ever since.</p>
+          <p>I love building things, but I also understand that successful projects have to be financially viable. As an entrepreneur I learned a lot about the importance of customer development and lean startup methodologies.</p>
+          <p></p>
+          <p>
+            I am currently working on
+            <a href='http://discuss.io' target='_blank'>Discussio</a>
+            , a visual annotation tool and teaching web development at
+            <a href='http://bitmakerlabs.com' target='_blank'>Bitmaker Labs</a>
+            .
+          </p>
+          <p>
+            <a class='button small' data-reveal-id='contact_form' href='#' id='contact'>Contact me</a>
+          </p>
+        </div>
+        <div class='four columns'>
+          <img class='me' src='images/me.jpg'>
+        </div>
+        <div class='clear'></div>
+      </div>
+    </div>
+    <div class='row discussio'>
+      <div class='four columns'>
+        <a class='project-link' href='http://discuss.io' target='_blank'>
+          <img class='pimage' src='images/discussio.png'>
+        </a>
+      </div>
+      <div class='eight columns'>
+        <div class='panel'>
+          <h5>Software Engineer, Cofounder @ discussio</h5>
+          <p>Discussio (think 'Mario') is a visual annotation and collaboration tool. Common use cases include design reviews, customer support and bug reporting. Using Backbone, Pusher and a Rails API to allow users to add annotations and comments that sync in real time across all clients.</p>
+          <span class='radius label red'>Ruby on Rails</span>
+          <span class='radius label blue'>Backbone.js</span>
+          <span class='radius label green'>Angular.js</span>
+          <span class='radius label lbrown'>Heroku</span>
+          <span class='radius label brown'>Pusher</span>
+          <span class='radius label green'>API</span>
+        </div>
+      </div>
+    </div>
+    <div class='row sleepcountry'>
+      <div class='four columns'>
+        <a class='project-link' href='http://sleepcountry.ca' target='_blank'>
+          <img class='pimage' src='images/sleepcountry.png'>
+        </a>
+      </div>
+      <div class='eight columns'>
+        <div class='panel'>
+          <h5>Rails Developer - Sleep Country Canada</h5>
+          <p>The main website for Sleep Country Canada, the mattress retailer. I was the lead developer on this 4-month-long project and wrote the catalog management section, reporting, blog, career page and Salesforce integration. I was also responsible with deploying application and ensured it can handle the relatively high traffic it receives.</p>
+          <span class='radius label red'>Ruby on Rails</span>
+          <span class='radius label blue'>CMS</span>
+          <span class='radius label lbrown'>Salesforce</span>
+          <span class='radius label brown'>Slicehost</span>
+          <span class='radius label green'>High Traffic</span>
+        </div>
+      </div>
+    </div>
+    <div class='row'>
+      <div class='four columns shoplocket'>
+        <div class='panel'>
+          <h5>Software Engineer, Contract @ ShopLocket</h5>
+          <a class='project-link' href='http://shoplocket.com' target='_blank'>
+            <img class='pimage' src='images/shoplocket.png'>
+          </a>
+          <p>ShopLocket is a startup that aims to make integrating an online store into your site as easy as embedding youtube videos.</p>
+          <span class='radius label green'>Angular.js</span>
+          <span class='radius label blue'>Facebook API</span>
+          <span class='radius label lblue'>Stripe</span>
+        </div>
+      </div>
+      <div class='four columns clipik'>
+        <div class='panel'>
+          <h5>Software Engineer @ Clipik</h5>
+          <a class='project-link' href='http://clipik.com' target='_blank'>
+            <img class='pimage' src='images/clipik.png'>
+          </a>
+          <p>Worked remotely with Clipik, a San Francisco based startup that connects consumers with semi-professional video editors.</p>
+          <span class='radius label red'>Ruby on Rails</span>
+          <span class='radius label blue'>Backbone.js</span>
+          <span class='radius label lbrown'>Raphael.js</span>
+          <div class='techrow'></div>
+          <span class='radius label green'>Video Encoding</span>
+          <span class='radius label brown'>Large Uploads</span>
+          <span class='radius label lblue'>Social</span>
+        </div>
+      </div>
+      <div class='four columns mipp'>
+        <div class='panel'>
+          <h5>Rails Developer - MiPP</h5>
+          <a class='project-link' href='http://softgravity.com/promotions' target='_blank'>
+            <img class='pimage' src='images/mipp.png'>
+          </a>
+          <p>MiPP (Micro Promotion Platform) is a CMS that allows marketing people to create promotional contest sites: (Ex. "Enter the PIN on the packaging to win a free cruise.").</p>
+          <span class='radius label red'>Ruby on Rails</span>
+          <span class='radius label blue'>CMS</span>
+          <span class='radius label lbrown'>Facebook</span>
+          <div class='techrow'></div>
+          <span class='radius label green'>Twitter</span>
+        </div>
+      </div>
+    </div>
+    <div class='row'>
+      <div class='four columns makazoo'>
+        <div class='panel'>
+          <h5>Rails Developer, Cofounder @ Makazoo</h5>
+          <a class='project-link' href='http://makazoo.com' target='_blank'>
+            <img class='pimage' src='images/makazoo.png'>
+          </a>
+          <p>Textbook exchange site for students in Toronto: built it from scratch. Integrates with the Amazon ECS to retrieve covers. Facebook share buttons help spread the word.</p>
+          <span class='radius label red'>Ruby on Rails</span>
+          <span class='radius label blue'>TDD</span>
+          <span class='radius label green'>Amazon ECS</span>
+          <div class='techrow'></div>
+          <span class='radius label lbrown'>Facebook</span>
+        </div>
+      </div>
+      <div class='four columns sg'>
+        <div class='panel'>
+          <h5>Rails Developer, Team Lead @ Soft Gravity</h5>
+          <a class='project-link' href='http://softgravity.com' target='_blank'>
+            <img class='pimage' src='images/softgravity.png'>
+          </a>
+          <p>Technical lead of a team of five developers working on various marketing projects. Conducted technical interviews and introduced new hires to the company's technical resources and infrastructure.</p>
+        </div>
+      </div>
+      <div class='four columns freedomriders'>
+        <div class='panel'>
+          <h5>Rails Developer - Freedom Riders</h5>
+          <a class='project-link' href='http://freedom-riders.org' target='_blank'>
+            <img class='pimage' src='images/freedomriders.png'>
+          </a>
+          <p>Coded the back end for this ski club website. Club members can register and purchase trips online through the site. This was my very first Rails project back in 2007.</p>
+          <span class='radius label red'>Ruby on Rails</span>
+          <span class='radius label blue'>Paypal</span>
+          <span class='radius label brown'>Slicehost</span>
+        </div>
+      </div>
+    </div>
+    <div class='row'>
+      <div class='four columns fuse'>
+        <div class='panel'>
+          <h5>Rails Developer - FUSE</h5>
+          <a class='project-link' href='http://fusemg.com' target='_blank'>
+            <img class='pimage' src='images/fusemg.png'>
+          </a>
+          <p>Built the CMS and Blog that powers the website of Fuse Marketing Group. Role and resource-based authentication system.</p>
+          <span class='radius label red'>Ruby on Rails</span>
+          <span class='radius label blue'>Blog</span>
+          <span class='radius label lbrown'>Salesforce</span>
+          <div class='techrow'></div>
+          <span class='radius label lgreen'>Fancy Authentication</span>
+        </div>
+      </div>
+      <div class='four columns careguide'>
+        <div class='panel'>
+          <h5>Software Engineer, Contract @ CareGuide</h5>
+          <a class='project-link' href='http://sitter.com/ab/edmonton' target='_blank'>
+            <img class='pimage' src='images/careguide.png'>
+          </a>
+          <p>Built the ad localization and phone anonimization components of this care services directory.</p>
+          <span class='radius label blue'>Google Maps</span>
+          <span class='radius label green'>Twilio</span>
+          <span class='radius label red'>Ruby on Rails</span>
+          <div class='techrow'></div>
+          <span class='radius label lblue'>CoffeeScript</span>
+        </div>
+      </div>
+    </div>
+    <div class='row'>
+      <hr>
+    </div>
+    <div class='row footer'>
+      <div class='five columns'>
+        <p>
+          Handcrafted with Sublime, HAML and
+          <a href='http://thethemefoundry.com' target='_blank'>Theme Foundry.</a>
+        </p>
+      </div>
+      <div class='two columns offset-by-three social'>
+        <a href='http://github.com/monicao' target='_blank'>
+          <img src='images/social/github.png'>
+        </a>
+        <a href='http://twitter.com/mochromatic' target='_blank'>
+          <img src='images/social/twitter.png'>
+        </a>
+        <a href='http://www.linkedin.com/pub/monica-olinescu/3/7b6/287' target='_blank'>
+          <img src='images/social/linkedin.png'>
+        </a>
+      </div>
+    </div>
+    <div class='reveal-modal' id='contact_form'>
+      <iframe frameborder='0' height='360' marginheight='0' marginwidth='0' src='https://docs.google.com/spreadsheet/embeddedform?formkey=dFhTNGFuTHlHaWM2ZHRSdE55Q3F1TEE6MQ' width='460'>
+        Loading...
+      </iframe>
+      <a class='close-reveal-modal'>
+        &#215;
+      </a>
+    </div>
+    <script>
+      $(document).ready(function(){
+        mixpanel.track("visit")
+      });
+      $("#github").click(function(){
+        mixpanel.track("github")
+      });
+      $("#twitter").click(function(){
+        mixpanel.track("twitter")
+      });
+      $("#linkedin").click(function(){
+        mixpanel.track("linkedin")
+      });
+      $(".project-link").click(function(){
+        var project_url = $(this).attr("href");
+        mixpanel.track("project", {url: project_url});
+      });
+    </script>
+  </body>
+<![endif]-->
